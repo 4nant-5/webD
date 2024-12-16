@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 750px;
+    background-color: rgba(89, 86, 85, 0.945);
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+h1, h2 {
+    color: #000000;
+}
+
+/* Navigation Buttons */
+.nav-buttons {
+    margin: 20px 0;
+}
+
+.nav-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #b7a33f;
+    color: white;
+    border-radius: 50px;
+    transition: background-color 0.3s;
+}
+
+.nav-buttons a:hover {
+    background-color: #45a049;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 10px;
+    background-color: #e84205;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #3554e2;
+}
+
+/* Images */
+.main-image {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.menu-item img, .order-summary img, .review img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.review img {
+    border-radius: 50%;
+}
+
+/* Menu and Order Summary */
+.menu-item, .order-summary, .review {
+    border-bottom: 1px solid #000000;
+    padding: 10px 0;
+    display: flex;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Background Images */
+.login-background {
+    background-image: url('Media/order.jpg'); /* Add the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-background {
+    background-image: url('Media/order1.jpg'); /* Add the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Specific Page Styles */
+.order-container {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+#orderbg {
+    background-image: url('Media/order.jpg'); /* Add the path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.checkout-button {
+    display: inline-block;
+    margin-top: 20px;
+}
